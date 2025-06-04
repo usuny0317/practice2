@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-
+//타입스크립트는 .css 못 읽는다다
 const Swipe = () => {
   return (
     <Swiper
