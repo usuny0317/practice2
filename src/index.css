@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+.swiper-pagination-bullet {
+  background-color: white !important;
+  border: 1px solid #9ca3af !important;
+  border-radius: 9999px !important;
+  opacity: 1 !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 4px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #9ca3af !important;
+  border: none !important;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
