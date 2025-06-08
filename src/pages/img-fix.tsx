@@ -1,6 +1,6 @@
 const ImgFix = () => {
   return (
-    <div className="relative flex items-center justify-center min-h-screen bg-[url('/getbono.jpg')] bg-cover bg-center ">
+    <div className="relative flex items-center justify-center  w-full bg-[url('/getbono.jpg')] bg-cover bg-center bg-no-repeat">
       <div className="relative flex flex-col text-bold text-[#83f97d]">
         ImgFix
         <img src="/pika.jpg" />
