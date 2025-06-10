@@ -3,15 +3,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-//타입스크립트는 .css 못 읽는다다
-const Swipe = () => {
+const Swipe2 = () => {
   return (
     <Swiper
+      className="w-[600px]"
       spaceBetween={50}
       slidesPerView={1}
-      pagination={{ clickable: true }}
+      pagination={{
+        type: "fraction",
+      }}
       modules={[Pagination]}
-      className="w-[600px]"
     >
       <SwiperSlide>
         <div className="h-[600px] flex items-center justify-center bg-white">
@@ -32,4 +33,4 @@ const Swipe = () => {
   );
 };
 
-export default Swipe;
+export default Swipe2;
