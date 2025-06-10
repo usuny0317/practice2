@@ -17,6 +17,10 @@
   border: none !important;
 }
 
+.swiper {
+  position: relative !important;
+}
+
 .swiper-pagination-fraction {
   position: fixed !important;
   bottom: 10px !important;
